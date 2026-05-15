@@ -12,6 +12,7 @@
   },
   "files": [
     "README.md",
+    "assets",
     "scripts",
     "skills",
     "templates"
@@ -35,6 +36,7 @@
     "access": "public"
   },
   "pi": {
+    "image": "https://raw.githubusercontent.com/Micka33/pi-npm-version-release-skill/main/assets/social-preview.png",
     "skills": [
       "./skills"
     ]

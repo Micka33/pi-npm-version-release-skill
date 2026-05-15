@@ -1,5 +1,9 @@
 # pi-version-release-skill
 
+<p align="center">
+  <img src="assets/social-preview.png" alt="pi-version-release-skill visual" width="100%">
+</p>
+
 Pi package for release/version automation skills.
 
 ## Skills
@@ -57,6 +61,9 @@ The generated workflow expects a `package.json`, a `.node-version` file, semver 
 ## Package contents
 
 ```text
+assets/
+├── social-preview.png
+└── social-preview.svg
 scripts/
 └── add-release-workflow.mjs
 templates/
