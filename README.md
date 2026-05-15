@@ -5,6 +5,7 @@ Pi package for release/version automation skills.
 ## Skills
 
 - `github-release-workflow` — add a templated GitHub Actions release workflow to a Node/npm or pi package repository.
+- `release-new-version` — release a new semver version by checking the release workflow, choosing the next tag, pushing it, and verifying GitHub Actions.
 
 ## Install
 
@@ -61,6 +62,8 @@ scripts/
 templates/
 └── release.yml
 skills/
-└── github-release-workflow/
+├── github-release-workflow/
+│   └── SKILL.md
+└── release-new-version/
     └── SKILL.md
 ```
