@@ -1,0 +1,42 @@
+{
+  "name": "@micka33/pi-version-release-skill",
+  "version": "0.1.0",
+  "description": "Pi package providing skills and scripts for versioned GitHub release workflows.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "ci": "npm test"
+  },
+  "bin": {
+    "pi-add-release-workflow": "./scripts/add-release-workflow.mjs"
+  },
+  "files": [
+    "README.md",
+    "scripts",
+    "skills",
+    "templates"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi-skill",
+    "agent-skills",
+    "github-actions",
+    "release-workflow"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Micka33/pi-version-release-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Micka33/pi-version-release-skill/issues"
+  },
+  "homepage": "https://github.com/Micka33/pi-version-release-skill#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
