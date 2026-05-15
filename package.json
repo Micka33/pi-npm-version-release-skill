@@ -1,5 +1,5 @@
 {
-  "name": "@micka33/pi-version-release-skill",
+  "name": "@micka33/pi-npm-version-release-skill",
   "version": "0.1.0",
   "description": "Pi package providing skills and scripts for versioned GitHub release workflows.",
   "type": "module",
@@ -26,12 +26,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Micka33/pi-version-release-skill.git"
+    "url": "git+https://github.com/Micka33/pi-npm-version-release-skill.git"
   },
   "bugs": {
-    "url": "https://github.com/Micka33/pi-version-release-skill/issues"
+    "url": "https://github.com/Micka33/pi-npm-version-release-skill/issues"
   },
-  "homepage": "https://github.com/Micka33/pi-version-release-skill#readme",
+  "homepage": "https://github.com/Micka33/pi-npm-version-release-skill#readme",
   "publishConfig": {
     "access": "public"
   },
